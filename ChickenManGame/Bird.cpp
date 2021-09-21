@@ -55,7 +55,7 @@ void Bird::createAP() {
     strncpy(stats.pswd, password.c_str(), 64);
 
     // Go into AP mode
-    WiFi.mode(WIFI_AP);
+    WiFi.mode(WIFI_AP_STA);
 
     delay(100);
 
